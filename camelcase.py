@@ -1,3 +1,5 @@
 a=raw_input()
-x=a.title()
-print x
+if a>=1000000:
+    x=a.title()
+    print x
+
