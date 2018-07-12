@@ -8,8 +8,8 @@ if(a<=1000):
         p=p*10+sum
         a=a/10
     if p==r:
-        print "palindrome"
+        print "yes"
     else:
-        print  "not a palindrome"
+        print  "no"
 else:
     print "invalid"
