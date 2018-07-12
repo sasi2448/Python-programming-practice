@@ -1,3 +1,3 @@
-a=str(raw_input())
-x=a[::-1]
+b=str(raw_input())
+x=b[::-1]
 print x
