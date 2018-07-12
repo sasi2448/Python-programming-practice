@@ -1,3 +1,3 @@
-a=int(input("enter the num\n"))
+a=int(input())
 sum= ((a*(a+1))/2)
 print sum
