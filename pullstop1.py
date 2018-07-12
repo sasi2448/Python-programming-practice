@@ -1,3 +1,3 @@
-a=str(raw_input())
-string=a+'.'
+b=str(raw_input())
+string=b+'.'
 print string
