@@ -1,5 +1,5 @@
 x=raw_input()
-a=str(['saturday''sunday'])
+a=str(['Saturday''Sunday'])
 if x in a:
     print 'yes'
 else:
