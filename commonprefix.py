@@ -1,0 +1,101 @@
+a=int(input())
+if(a==2):
+    s1=str(input())
+    s2=str(input())
+    s1=list(s1)
+    s2=list(s2)
+    x=len(s1)
+    y=len(s2)
+    c=min(x,y)
+    b=[]
+    for i in range(c):
+        if(s1[i]==s2[i]):
+            b.append(s1[i])
+    d=''.join(b)
+    print(d)
+if(a==3):
+    s1=str(input())
+    s2=str(input())
+    s3=str(input())
+    s1=list(s1)
+    s2=list(s2)
+    s3=list(s3)
+    x=len(s1)
+    y=len(s2)
+    z=len(s3)
+    c=min(x,y,z)
+    b=[]
+    for i in range(c):
+        if(s1[i]==s2[i]==s3[i]):
+            	b.append(s1[i])
+    c=''.join(b)
+    print(c)
+if(a==4):
+    s1=str(input())
+    s2=str(input())
+    s3=str(input())
+    s4=str(input())
+    s1=list(s1)
+    s2=list(s2)
+    s3=list(s3)
+    s4=list(s4)
+    x=len(s1)
+    y=len(s2)
+    z=len(s3)
+    w=len(s4)
+    c=min(x,y,z,w)
+    b=[]
+    for i in range(c):
+        if(s1[i]==s2[i]==s3[i]==s4[i]):
+            b.append(s1[i])
+    c=''.join(b)
+    print(c)
+if(a==5):
+    s1=str(input())
+    s2=str(input())
+    s3=str(input())
+    s4=str(input())
+    s5=str(input())
+    s1=list(s1)
+    s2=list(s2)
+    s3=list(s3)
+    s4=list(s4)
+    s5=list(s5)
+    x=len(s1)
+    y=len(s2)
+    z=len(s3)
+    w=len(s4)
+    q=len(s5)
+    c=min(x,y,z,w,q)
+    b=[]
+    for i in range(c):
+        if(s1[i]==s2[i]==s3[i]==s4[i]==s5[i]):
+            b.append(s1[i])
+    c=''.join(b)
+    print(c)
+if(a==6):
+    s1=str(input())
+    s2=str(input())
+    s3=str(input())
+    s4=str(input())
+    s5=str(input())
+    s6=str(input())
+    s1=list(s1)
+    s2=list(s2)
+    s3=list(s3)
+    s4=list(s4)
+    s5=list(s5)
+    s6=list(s5)
+    x=len(s1)
+    y=len(s2)
+    z=len(s3)
+    w=len(s4)
+    q=len(s5)
+    m=len(s6)
+    c=min(x,y,z,w,q,m)
+    b=[]
+    for i in range(c):
+        if(s1[i]==s2[i]==s3[i]==s4[i]==s5[i]==s6[i]):
+            b.append(s1[i])
+    c=''.join(b)
+    print(c)
