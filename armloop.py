@@ -4,10 +4,11 @@ m=int(m)
 
 for i in range(n,m):
     sum = 0
-    temp = i
+    temp = j
     while temp > 0:
         digit = temp % 10
         sum =sum+digit ** 3
         temp=temp//10
-    if i==sum:
-        print i
+    if j==sum:
+        print j
+
