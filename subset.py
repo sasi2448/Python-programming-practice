@@ -10,9 +10,10 @@ for j in range(m):
     break
 for k in range(len(a)):
     for l in range(len(b)):
-        if(a[k]==b[l]):
+        if(b[l] in a[k]):
             count=count+1
-if(count>1):
+if(count==len(b)):
     print("YES")
 else:
     print("NO")
+
