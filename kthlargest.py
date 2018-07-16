@@ -3,9 +3,12 @@ n=int(n)
 k=int(k)
 for i in range(n):
     x=input().split()
+    x.sort(key =int)
+    y=x[::-1]
     break
-x.sort(reverse=True)
-y=x.pop(k-1)
-y=int(y)
-print(y)
+z=y.pop(k-1)
+z=int(z)
+print(z)
+
+
 
