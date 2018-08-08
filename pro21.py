@@ -1,6 +1,8 @@
 a=int(input())
-w=[]
-e=[]
+count=0
+count1=0
+w=0
+e=0
 for i in range(a):
     x=input().split()
     break
@@ -8,16 +10,25 @@ if(a>=2 and a<100000):
     if(a%2==0):
         q=a//2
         for j in range(q):
-            w.append(x[j])
+            w=w+int(x[j])
+            count+=1
         for k in range(q,a):
-            e.append(x[k])
+            e=e+int(x[k])
+            count1+=1
     else:
         t=a//2+1
         for j in range(t):
-            w.append(x[j])
+            w=w+int(x[j])
+            count+=1
         for k in range(t,a):
-            e.append(x[k])
-    print('yes')
+            e=e+int(x[k])
+            count1+=1
+    if(w//count==e//count1):
+        print('yes')
+    else:
+        print('no')
 else:
     print('no')
+        
+
         
