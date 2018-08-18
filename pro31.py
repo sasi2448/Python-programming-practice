@@ -43,11 +43,14 @@ for k in range(0,x):
             break
 if(x>1):
     breath=max(q)-min(q)
-    if(sum(q)==9):
-        print(2*(height+breath)-1)
+print(2*(height+breath))
+    
 
-    else:
-        print(2*(height+breath))
+
+
+        
+    
+
 
     
 
