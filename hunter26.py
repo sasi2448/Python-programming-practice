@@ -5,6 +5,6 @@ for i in range(a):
 x.reverse()
 for i in range(0,a):
     if(i==a-1):
-        print(x[i],end='')
+        print(int(x[i]),end='')
     else:
-        print(x[i],end='->')
+        print(int(x[i]),end='->')
