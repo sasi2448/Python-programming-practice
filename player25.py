@@ -1,3 +1,4 @@
+c=int(input())
 a=input()
 b=a.split()
 b.sort(key=len)
