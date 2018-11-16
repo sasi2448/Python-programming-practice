@@ -6,4 +6,4 @@ a1=''.join(a.replace(',',''))
 if(int(a1)<=q):
     print('INT')
 else:
-    print('LONG')
+    print('LONG LONG')
