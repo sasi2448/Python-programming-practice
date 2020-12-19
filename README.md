@@ -1,3 +1,3 @@
 # GUVI online platform
-www.guvi.com
+www.guvi.in
 Python practice
